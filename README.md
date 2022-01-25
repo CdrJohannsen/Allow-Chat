@@ -1,5 +1,5 @@
 # Allow-Chat
-This mod enables the use of the § symbol in Minecraft.
+This mod enables the use of the § symbol in Minecraft.                                                                                                       
 
 NOTE: Unfortunately, it has to be on your server AND your client to work.
 
