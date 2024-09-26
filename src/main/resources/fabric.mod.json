@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "allowchat",
+  "version": "${version}",
+
+  "name": "Allow Chat",
+  "description": "Allows you to write paragraph in minecraft\nColorcodes found on  minecraft-wiki:\n§00§r §11§r §22§r §33§r §44§r §55§r §66§r §77§r §88§r §99§r §aa§r §bb§r §cc§r §dd§r §ee§r\n §kk§rk §ll§rl §mm§rm §nn§rn §oo§ro rr",
+  "authors": [
+    "Cdr_Johannsen"
+  ],
+  "contact": {
+    "homepage": "https://github.com/CdrJohannsen",
+    "sources": "https://github.com/CdrJohannsen?tab=repositories"
+  },
+
+  "license": "GPL-3.0",
+  "icon": "assets/allowchat/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.allowchat.AllowChat"
+    ]
+  },
+  "mixins": [
+    "allowchat.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.7",
+    "fabric": "*",
+    "minecraft": "1.21.x",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
